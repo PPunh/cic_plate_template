@@ -1,0 +1,129 @@
+@font-face {
+    font-family: phetsarath_ot;
+    src: url(../fonts/phetsarath_ot.woff2) format('woff2'),
+}
+@font-face {
+    font-family: "Nuanta-regular";
+    src: url(../fonts/Nuanta-Regular.woff2) format('woff2'),
+}
+@font-face {
+    font-family: "Nuanta-medium";
+    src: url(../fonts/Nuanta-Medium.woff2) format('woff2'),
+}
+@font-face {
+    font-family: "Nuanta-bold";
+    src: url(../fonts/Nuanta-Bold.woff2) format('woff2'),
+}
+@font-face {
+    font-family: "saysettha_95";
+    src: url(../fonts/saysettha_95.woff2) format('woff2'),
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body, h1, h2, h3, h4, h5, h6, p, div, span, button{
+    font-family: "Nuanta-bold", sans-serif;
+}
+.textPlateLabel{
+    font-size: 2rem;
+}
+#textPlateInput, #selectProvince{
+    width: 20%;
+    height: 50px;
+    font-size: 1.2rem;
+}
+.plateProvince{
+    font-size: 20px; ;
+}
+.plate {
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+.desc {
+    width: 250px;
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.plate .number {
+    font-weight: bold;
+    display: block;
+    margin-top: 4px;
+}
+/* Blue-White  */
+.blue-white {
+    background-color: #0033ff !important;
+    color: #ffffff !important;
+}
+.plate-border-blue-white{
+    width: 245px;
+    height: 95px;
+    border: 2px solid #ffffff !important;
+    border-radius: 5px;
+    margin-left: -13px;
+    margin-top: -5px;
+}
+
+/* Yellow-Black  */
+.yellow-black {
+    background-color: #FCBB0B !important;
+    color: #000000 !important;
+}
+.plate-border-yellow-black{
+    width: 245px;
+    height: 95px;
+    border: 2px solid #000000 !important;
+    border-radius: 5px;
+    margin-left: -13px;
+    margin-top: -5px;
+}
+
+
+/* Yellow-Black  */
+.white-black {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+.plate-border-white-black{
+    width: 245px;
+    height: 95px;
+    border: 2px solid #000000 !important;
+    border-radius: 5px;
+    margin-left: -13px;
+    margin-top: -5px;
+}
+
+
+/* white-soft_blue  */
+.white-soft_blue {
+    background-color: #ffffff !important;
+    color: #08A4FC !important;
+}
+.plate-border-white-soft_blue{
+    width: 245px;
+    height: 95px;
+    border: 2px solid #08A4FC !important;
+    border-radius: 5px;
+    margin-left: -13px;
+    margin-top: -5px;
+}
+
+/* white-soft_blue  */
+.yellow-soft_blue {
+    background-color: #FCBB0B !important;
+    color: #08A4FC !important;
+}
+.plate-border-yellow-soft_blue{
+    width: 245px;
+    height: 95px;
+    border: 2px solid #08A4FC !important;
+    border-radius: 5px;
+    margin-left: -13px;
+    margin-top: -5px;
+}
